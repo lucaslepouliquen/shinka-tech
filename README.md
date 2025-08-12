@@ -1,1 +1,34 @@
 # shinka-tech
+
+<svg viewBox="0 0 300 100" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="techGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#2563eb;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#7c3aed;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Texte SHINKA centré -->
+  <text x="150" y="32" font-family="Arial, sans-serif" font-size="24" font-weight="300" fill="#1f2937" text-anchor="middle">
+    SHINKA
+  </text>
+  
+  <!-- Texte TECH centré en bleu -->
+  <text x="150" y="52" font-family="Arial, sans-serif" font-size="14" font-weight="400" fill="#2563eb" letter-spacing="2px" text-anchor="middle">
+    TECH
+  </text>
+  
+  <!-- Symbole d'évolution - forme géométrique progressive en dessous, centré -->
+  <g transform="translate(126, 65)">
+    <!-- Première forme - plus petite -->
+    <circle cx="8" cy="10" r="4" fill="#2563eb" opacity="0.7"/>
+    
+    <!-- Deuxième forme - intermédiaire -->
+    <rect x="20" y="6" width="8" height="8" rx="2" fill="#2563eb" opacity="0.85"/>
+    
+    <!-- Troisième forme - plus grande et complexe -->
+    <polygon points="36,2 44,2 48,10 44,18 36,18 32,10" fill="#2563eb"/>
+  </g>
+  
+
+</svg>
